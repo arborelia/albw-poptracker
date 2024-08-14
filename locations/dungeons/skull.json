@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Skull Woods",
+    "color": "#43c2be",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$access_skull_woods_area"
+    ],
+    "children": [
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 128,
+            "y": 112
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 South Chest",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 137,
+            "y": 50
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 NE Room Lower",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 142,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 NE Room Fall",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 97,
+            "y": 38
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Grate Room",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless, progression_enemies",
+              "$lampless, bombs",
+              "$lampless, hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 113,
+            "y": 23
+          }
+        ],
+        "sections": [
+          {
+            "name": "B2 Elevator Room",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless, merge, bombs",
+              "$lampless, merge, hammer",
+              "$lampless, merge, $attack, progression_enemies",
+              // Have hand kill everything
+              "[hell], $lampless, merge, progression_enemies"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 40,
+            "y": 16
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Big Chest (Eyes)",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless, merge, $attack, $fire, progression_enemies",
+              "$lampless, merge, $attack, $fire, bombs",
+              "$lampless, merge, $attack, $fire, hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 24,
+            "y": 68
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Big Chest (SW)",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "item_count": 1,
+            "access_rules": [
+              "$lampless, merge, $attack, $fire, progression_enemies",
+              "$lampless, merge, $attack, $fire, bombs",
+              "$lampless, merge, $attack, $fire, hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 41,
+            "y": 115
+          },
+          {
+            "map": "lorule",
+            "x": 88,
+            "y": 296
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outdoor Chest",
+            "item_count": 1,
+            "access_rules": [
+              "{csmc}",
+              "$lampless, merge, $attack, $fire, progression_enemies",
+              "$lampless, merge, $attack, $fire, bombs",
+              "$lampless, merge, $attack, $fire, hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 63,
+            "y": 25
+          }
+        ],
+        "sections": [
+          {
+            "name": "Knucklemaster",
+            //"capture_item": true,
+            "item_count": 1,
+            "access_rules": [
+              "lamp, merge, progression_enemies, msword",
+              "lamp, merge, bombs, msword",
+              "lamp, merge, hammer, msword",
+              "[lampless], merge, progression_enemies, msword",
+              "[lampless], merge, bombs, msword",
+              "[lampless], merge, hammer, msword",
+
+              "[hard], lamp, merge, progression_enemies, $knucklemaster",
+              "[hard], lamp, merge, bombs, $knucklemaster",
+              "[hard], lamp, merge, hammer, $knucklemaster",
+              "[hard], [lampless], merge, progression_enemies, $knucklemaster",
+              "[hard], [lampless], merge, bombs, $knucklemaster",
+              "[hard], [lampless], merge, hammer, $knucklemaster"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 63,
+            "y": 9,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_power_sw"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_wisdom_sw"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_courage_sw"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_gulley_sw"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_oren_sw"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_seres_sw"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_osfala_sw"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_impa_sw"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_irene_sw"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_rosso_sw"]}
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 363,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "progression_enemies, [lamp], [merge], [$knucklemaster]",
+              "progression_enemies, [lampless], [frod], [merge], [$knucklemaster]",
+              "no_progression_enemies, [lamp], [merge], [$knucklemaster], [bombs]",
+              "no_progression_enemies, [lamp], [merge], [$knucklemaster], [hammer]",
+              "no_progression_enemies, [lampless], [frod], [merge], [$knucklemaster], [bombs]",
+              "no_progression_enemies, [lampless], [frod], [merge], [$knucklemaster], [hammer]"
+            ]
+          },
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_power_sw"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_wisdom_sw"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_courage_sw"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_gulley_sw"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_oren_sw"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_seres_sw"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_osfala_sw"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_impa_sw"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_irene_sw"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["{}", "$lampless, merge, progression_enemies, $knucklemaster", "$lampless, merge, bombs, $knucklemaster", "$lampless, merge, hammer, $knucklemaster", "[glitched], $lampless, merge, bow, trod, progression_enemies", "[glitched], $lampless, merge, bow, trod, bombs", "[glitched], $lampless, merge, bow, trod, hammer"], "visibility_rules": ["label_rosso_sw"]}
+        ]
+      }
+    ]
+  }
+]

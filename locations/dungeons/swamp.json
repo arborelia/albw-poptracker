@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Swamp Palace",
+    "color": "#d25432",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$access_central_lorule, flippers, hookshot",
+      "[advanced], $advanced_access_central_lorule, flippers, hookshot",
+      "[hell], $hell_access_central_lorule, flippers, hookshot"
+    ],
+    "children": [
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 126,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 East Pillar",
+            //"capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 53,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 West Pillar",
+            //"capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 89,
+            "y": 51
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 North Center",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 58,
+            "y": 81
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Staircase",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 32,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Raft Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 36,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Side Room",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swampB1",
+            "x": 89,
+            "y": 69
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Big Chest",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "access_rules": [
+              "merge, progression_enemies",
+              "merge, bombs",
+              "merge, hammer",
+              "[hard], bow, progression_enemies",
+              "[hard], bow, bombs",
+              "[hard], bow, hammer",
+              "[glitched], boots",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp1F",
+            "x": 89,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "1F Big Chest",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "access_rules": [
+              "merge, progression_enemies",
+              "merge, bombs",
+              "merge, hammer",
+              "[glitched], boots",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp1F",
+            "x": 41,
+            "y": 86
+          }
+        ],
+        "sections": [
+          {
+            "name": "1F West Pillar",
+            "access_rules": [
+              "merge, progression_enemies",
+              "merge, bombs",
+              "merge, hammer",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp1F",
+            "x": 137,
+            "y": 86
+          }
+        ],
+        "sections": [
+          {
+            "name": "1F East Pillar",
+            "access_rules": [
+              "merge, progression_enemies",
+              "merge, bombs",
+              "merge, hammer",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp1F",
+            "x": 54,
+            "y": 144
+          }
+        ],
+        "sections": [
+          {
+            "name": "1F SW Room",
+            "access_rules": [
+              "merge, progression_enemies",
+              "merge, bombs",
+              "merge, hammer",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp1F",
+            "x": 89,
+            "y": 67
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arrghus",
+            //"capture_item": true,
+            "access_rules": [
+              "merge, bombs",
+              "merge, hammer",
+              "merge, progression_enemies, $attack",
+              "[advanced], not_nice_mode, irod"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "swamp2F",
+            "x": 89,
+            "y": 71,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_power_sp"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_wisdom_sp"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_courage_sp"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_gulley_sp"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_oren_sp"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_seres_sp"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_osfala_sp"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_impa_sp"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_irene_sp"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_rosso_sp"]}
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 962,
+            "y": 1808
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "progression_enemies, [hookshot], [flippers], [merge], [$attack], [trod]",
+              "progression_enemies, [hookshot], [flippers], [merge], [irod]",
+              "no_progression_enemies, [hookshot], [flippers], [merge], [trod], [bombs]",
+              "no_progression_enemies, [hookshot], [flippers], [merge], [trod], [hammer]",
+              "no_progression_enemies, [hookshot], [flippers], [merge], [irod], [bombs]",
+              "no_progression_enemies, [hookshot], [flippers], [merge], [irod], [hammer]"
+            ]
+          },
+          {
+            "name": "Arrghus",
+            //"capture_item": true,
+            "item_count": 1,
+            "access_rules": [
+              "merge, bombs",
+              "merge, hammer",
+              "merge, progression_enemies, $attack",
+              "[advanced], not_nice_mode, irod"
+            ]
+          },
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_power_sp"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_wisdom_sp"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_courage_sp"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_gulley_sp"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_oren_sp"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_seres_sp"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_osfala_sp"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_impa_sp"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_irene_sp"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["merge, bombs", "merge, hammer", "merge, progression_enemies, $attack", "[advanced], not_nice_mode, irod"], "visibility_rules": ["label_rosso_sp"]}
+        ]
+      }
+    ]
+  }
+]

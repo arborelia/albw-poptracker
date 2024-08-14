@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Ice Ruins",
+    "color": "#ef3435",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "frod, $access_ldm_east_top",
+      "[glitched], frod, $glitched_access_ldm_east_top",
+      "[hell], frod, $hell_access_ldm_east_top"
+    ],
+    "children": [
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "ice1F",
+            "x": 90,
+            "y": 133
+          }
+        ],
+        "sections": [
+          {
+            "name": "1F Hidden",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 137,
+            "y": 75
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Torches",
+            //"capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 137,
+            "y": 116
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 East Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 99,
+            "y": 108
+          }
+        ],
+        "sections": [
+          {
+            "name": "B1 Center Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB2",
+            "x": 80,
+            "y": 134
+          }
+        ],
+        "sections": [
+          {
+            "name": "B2 Icicle",
+            //"capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB2",
+            "x": 90,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "B2 Long Merge",
+            "item_count": 1,
+            "access_rules": [
+              "{csmc}",
+              "$switch, scroll",
+              "[advanced], boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 85,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "name": "B3 Elevator Left",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 95,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "name": "B3 Elevator Right",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 90,
+            "y": 94
+          }
+        ],
+        "sections": [
+          {
+            "name": "B3 Big Chest",
+            "item_count": 1,
+            "access_rules": [
+              "$switch"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 84,
+            "y": 57
+          }
+        ],
+        "sections": [
+          {
+            "name": "B4 Switches",
+            "item_count": 1,
+            "access_rules": [
+              "progression_enemies",
+              "bombs",
+              "niceirod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 23,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "name": "B4 SW Fall Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 122,
+            "y": 136
+          }
+        ],
+        "sections": [
+          {
+            "name": "B4 SE Fall Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 86,
+            "y": 144
+          }
+        ],
+        "sections": [
+          {
+            "name": "B4 Shortcut",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB5",
+            "x": 90,
+            "y": 113
+          }
+        ],
+        "sections": [
+          {
+            "name": "B5 Big Chest",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB6",
+            "x": 90,
+            "y": 81
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dharkstare",
+            //"capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB6",
+            "x": 90,
+            "y": 53,
+            "size": 24
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "visibility_rules": ["label_power_ir"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "visibility_rules": ["label_wisdom_ir"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "visibility_rules": ["label_courage_ir"]},
+          {"name": "Gulley", "hosted_item": "gulley", "visibility_rules": ["label_gulley_ir"]},
+          {"name": "Oren", "hosted_item": "oren", "visibility_rules": ["label_oren_ir"]},
+          {"name": "Seres", "hosted_item": "seres", "visibility_rules": ["label_seres_ir"]},
+          {"name": "Osfala", "hosted_item": "osfala", "visibility_rules": ["label_osfala_ir"]},
+          {"name": "Impa", "hosted_item": "impa", "visibility_rules": ["label_impa_ir"]},
+          {"name": "Irene", "hosted_item": "irene", "visibility_rules": ["label_irene_ir"]},
+          {"name": "Rosso", "hosted_item": "rosso", "visibility_rules": ["label_rosso_ir"]}
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1880,
+            "y": 156
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "item_count": 10,
+            "access_rules": [
+              "[frod], [scroll], [$switch]",
+              "[advanced], [frod], [boots]"
+            ]
+          },
+          {"name": "Pendant of Power", "hosted_item": "power", "visibility_rules": ["label_power_ir"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "visibility_rules": ["label_wisdom_ir"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "visibility_rules": ["label_courage_ir"]},
+          {"name": "Gulley", "hosted_item": "gulley", "visibility_rules": ["label_gulley_ir"]},
+          {"name": "Oren", "hosted_item": "oren", "visibility_rules": ["label_oren_ir"]},
+          {"name": "Seres", "hosted_item": "seres", "visibility_rules": ["label_seres_ir"]},
+          {"name": "Osfala", "hosted_item": "osfala", "visibility_rules": ["label_osfala_ir"]},
+          {"name": "Impa", "hosted_item": "impa", "visibility_rules": ["label_impa_ir"]},
+          {"name": "Irene", "hosted_item": "irene", "visibility_rules": ["label_irene_ir"]},
+          {"name": "Rosso", "hosted_item": "rosso", "visibility_rules": ["label_rosso_ir"]}
+        ]
+      }
+    ]
+  }
+]
