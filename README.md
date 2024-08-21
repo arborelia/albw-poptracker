@@ -2,7 +2,7 @@
 
 ## About
 
-This is an [EmoTracker](https://emotracker.net/) pack for tracking progress in The Legend of Zelda: A Link Between
+This is a PopTracker pack for tracking progress in The Legend of Zelda: A Link Between
 Worlds Randomizer.
 
 ## Release Notes
